@@ -16,7 +16,7 @@ Scalable Multi-threaded Web Server and Multi-threaded Web Client both using the 
 Proxy Server which uses Shared Memory IPC as a cache for requested resources. The cache automatically fetches missing entries from a remote server and updates itself with a copy of the resource.
 
 ### Multi-Threaded RPC Server
-RPC Client and Multi-Threaded Webserver which exposes an RPC (XDR) interface to downsample an image. Based upon the orignal [ONC/Sun RPC Protocol](https://en.wikipedia.org/wiki/Open_Network_Computing_Remote_Procedure_Call).
+RPC Client and Multi-Threaded Webserver which exposes an RPC (XDR) interface to down sample an image. Based upon the original [ONC/Sun RPC Protocol](https://en.wikipedia.org/wiki/Open_Network_Computing_Remote_Procedure_Call).
 
 
 # C++ - Computer Architecture
@@ -24,7 +24,7 @@ RPC Client and Multi-Threaded Webserver which exposes an RPC (XDR) interface to 
 This project is a simple demonstration of how to configure and analyze the results of the branch predictor used in [SESC Simulator](http://sesc.sourceforge.net).
 
 ### Next to LRU Cache Replacement Policy & L1 Cache Miss Instrumentation
-This project implements the Next to LRU (NXLRU) Cache Replacement Policy. Standard LRU replaces the block that is the first in LRU order (i.e. the least recently used block) in the cache set; NXLRU replaces the block that is the second in LRU order in the set, i.e. the secondleast-recently-used block in the set.
+This project implements the Next to LRU (NXLRU) Cache Replacement Policy. Standard LRU replaces the block that is the first in LRU order (i.e. the least recently used block) in the cache set; NXLRU replaces the block that is the second in LRU order in the set, i.e. the second least-recently-used block in the set.
 The second part of the project is to instrument the simulator to identify the specific type of L1 Cache Miss: compulsory, conflict, or capacity.
 
 ### Identifying Miss Types Separately for Reads & Writes for the L1 Cache
@@ -40,10 +40,10 @@ Implemented [Bi-Directional](https://en.wikipedia.org/wiki/Bidirectional_search)
 ### Decision Trees and Random Forest
 Created a Decision Tree and Random Forests Classifier using only NumPy. The Random Forests classifier was construction from a collection of Decision Tree weak learners. 
 
-My classifier was [ranked 7th out of 137 students for a Kaggle Comptetion](https://www.kaggle.com/c/omscs6601ai-sp18-assign4) for my graduate level AI course.
+My classifier was [ranked 7th out of 137 students for a Kaggle Competition](https://www.kaggle.com/c/omscs6601ai-sp18-assign4) for my graduate level AI course.
 
 ### Unsupervised Learning with Generative Models
-Implemented K-Means Clustering and Gaussian Mixture Models with [Bayesian information criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion) to peform Image segmentation using only NumPy.
+Implemented K-Means Clustering and Gaussian Mixture Models with [Bayesian information criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion) to perform Image segmentation using only NumPy.
 
 ### Hidden Markov Models
 Constructed a Hidden Markov Model for a subset of the Morse Code alphabet and solved it using the [Viterbi Algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm) using only NumPy.
@@ -67,7 +67,7 @@ Using the concepts of Projective geometry, Corner detection, Perspective imaging
 Computing Dense Flow using the [Lucas-Kanade Method](https://en.wikipedia.org/wiki/Lucas%E2%80%93Kanade_method) of [Optical Flow](https://en.wikipedia.org/wiki/Optical_flow). 
 
 ### Object Tracking and Pedestrian Detection
-Implemented [Kalman Filters](https://en.wikipedia.org/wiki/Kalman_filter) and [Particle Filters](https://en.wikipedia.org/wiki/Particle_filter) (using only Numpy) to track objects even with occlusions and change in appearance.
+Implemented [Kalman Filters](https://en.wikipedia.org/wiki/Kalman_filter) and [Particle Filters](https://en.wikipedia.org/wiki/Particle_filter) (using only NumPy) to track objects even with occlusions and change in appearance.
 
 ### Image Classification(Faces) - Viola Jones
 Used PCA to find the [Eigenface](https://en.wikipedia.org/wiki/Eigenface) over a data set of faces. Then derived and found the optimal [Haar-like Features](https://en.wikipedia.org/wiki/Haar-like_feature) that when trained with a Ada-Boosting Machine Learning algorithm would give the best prediction accuracy. This is the famous [Viola-Jones algorithm](https://en.wikipedia.org/wiki/Viola%E2%80%93Jones_object_detection_framework) which is very effective for quick face detection in an image.
@@ -80,7 +80,7 @@ An activity recognition classifier on an input video, using the concepts of [Ima
 Implementation of [Cross Correlation](https://en.wikipedia.org/wiki/Cross-correlation) (or a Convolution), [Image Gradients](https://en.wikipedia.org/wiki/Image_gradient), and Padded Reflect Borders using only NumPy and no OpenCV libraries.
 
 ### Feature Detection and Matching using OpenCV
-Used OpenCV library to generate [ORB feature descriptors](https://en.wikipedia.org/wiki/Oriented_FAST_and_rotated_BRIEF) and to match the most similar keypoints across different images.
+Used OpenCV library to generate [ORB feature descriptors](https://en.wikipedia.org/wiki/Oriented_FAST_and_rotated_BRIEF) and to match the most similar key points across different images.
 
 ### Panoramas
 Used [RANSAC algorithm](https://en.wikipedia.org/wiki/Random_sample_consensus) in OpenCV to find the [Homography matrix](https://en.wikipedia.org/wiki/Homography_(computer_vision)) between multiple images in order to create a panoramic image.
@@ -101,7 +101,7 @@ A visual showcase in presentation form for all of the projects I completed for t
 Localize and state estimation of a vehicle moving in a circular pattern with noisy sensor data using an [Extended Kalman Filter](https://en.wikipedia.org/wiki/Extended_Kalman_filter)
 
 ### Planning & Control - A* Search
-Robot planning to find the shortest total path to move a sequence of boxes in a continous gridworld without hitting any walls.
+Robot planning to find the shortest total path to move a sequence of boxes in a continuous maze world without hitting any walls.
 
 ### Localization - Runaway Vehicle
 Localize a runaway vehicle which frequently moves in random movements by training a [KNN regressor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) on the vehicles movements. 
@@ -114,4 +114,4 @@ Survey and analysis of the following supervised learning algorithms on the [Tita
 Compared the performance of both [K-Means](https://en.wikipedia.org/wiki/K-means_clustering) (hard-clustering) and [Expectations Maximization](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) (soft-clustering) before and after applying the following dimensionality reduction techniques: PCA, ICA, Randomized Projections, Random Forests Classifier.
 
 ### Reinforcement Learning
-Devised complex maze grid worlds and implemented Value Iteration and Policy Iteration using the [BURLAP](http://burlap.cs.brown.edu/) library. Analayzed and compared the convergence behavior of Value Iteration and Policy Iteration.
+Devised complex maze grid worlds and implemented Value Iteration and Policy Iteration using the [BURLAP](http://burlap.cs.brown.edu/) library. Analyzed and compared the convergence behavior of Value Iteration and Policy Iteration.

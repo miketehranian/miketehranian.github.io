@@ -10,7 +10,7 @@ Implemented and replicated the figures in [Correlated Q-Learning](https://www.aa
 
 # C - Operating Systems
 ### Multi-Threaded Server & Client
-Scalable Multi-threaded Web Server and Multi-thread Web Client both using the Boss-Worker pattern for sending and receiving network socket requests using a thread-worker pool. Both server and client interact through a simple REST API interface. Threads use the [POSIX threads (Pthreads)](https://en.wikipedia.org/wiki/POSIX_Threads) library and Network Sockets use the [C Standard Socket API](https://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html). 
+Scalable Multi-threaded Web Server and Multi-threaded Web Client both using the Boss-Worker pattern for sending and receiving network socket requests using a thread-worker pool. Both server and client interact through a simple REST API interface. Threads use the [POSIX threads (Pthreads)](https://en.wikipedia.org/wiki/POSIX_Threads) library and Network Sockets use the [C Standard Socket API](https://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html). 
 
 ### Inter-Process Communication with a Proxy
 Proxy Server which uses Shared Memory IPC as a cache for requested resources. The cache automatically fetches missing entries from a remote server and updates itself with a copy of the resource.

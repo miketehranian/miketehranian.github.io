@@ -3,7 +3,7 @@
 Implemented and replicated the figures in Sutton's famous paper [Learning to Predict by the Methods of Temporal Difference](https://link.springer.com/article/10.1007/BF00115009), which first introduced the concept of TD(λ).
 
 ### OpenAI Lunar Lander - Optimal Policy Learning
-Implemented an agent which successfully solves and lands the [OpenAI Lunar Lander](https://gym.openai.com/envs/LunarLander-v2) using a combination of Q-Learning, Neural Network, and Experienced Replay techniques. For more information see the report PDFs in the link below:
+Implemented an agent which successfully solves and lands the [OpenAI Lunar Lander](https://gym.openai.com/envs/LunarLander-v2) using a combination of Q-Learning, Neural Networks, and Experienced Replay techniques.
 
 ### Multi-Agent RL for a Soccer Grid World - “Correlated Q-Learning"
 Implemented and replicated the figures in [Correlated Q-Learning](https://www.aaai.org/Papers/ICML/2003/ICML03-034.pdf). This paper introduces the concept of Correlated Q-Learning which generalizes over both constant-sum games and general-sum games. This solution is found by solving a Linear Program.

@@ -45,11 +45,10 @@ Created a Decision Tree and Random Forests Classifier using NumPy only (no exter
 My classifier was [ranked 7th out of 137 students for a Kaggle Comptetion](https://www.kaggle.com/c/omscs6601ai-sp18-assign4) for my graduate level AI course.
 
 ### Unsupervised Learning with Generative Models
-Implemented K-Means Clustering and Gaussian Mixture Model with [Bayesian information criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion) to peform Image segmentation. Implementation was based on NumPy with no use of external machine learning libraries.
-
+Implemented K-Means Clustering and Gaussian Mixture Models with [Bayesian information criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion) to peform Image segmentation using only NumPy.
 
 ### Hidden Markov Models
-Constructed a Hidden Markov Model for a subset of Morse Code alphabet and solved it using the [Viterbi Algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm).
+Constructed a Hidden Markov Model for a subset of the Morse Code alphabet and solved it using the [Viterbi Algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm) using only NumPy.
 
 # Python - Computer Networks
 ### SDN Firewall

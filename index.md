@@ -98,13 +98,13 @@ A visual showcase in presentation form for all of the projects I completed for t
 
 # Python - AI for Robotics
 ### Localization - Extended Kalman Filter
-Localize and state estimation of a vehicle moving in a circular pattern with noisy sensor data.
+Localize and state estimation of a vehicle moving in a circular pattern with noisy sensor data using an [Extended Kalman Filter](https://en.wikipedia.org/wiki/Extended_Kalman_filter)
 
 ### Planning & Control - A* Search
-Robot planning to find the shortest path to move a set of boxes in a continous gridworld without hitting any walls.
+Robot planning to find the shortest total path to move a sequence of boxes in a continous gridworld without hitting any walls.
 
 ### Localization - Runaway Vehicle
-Localize a runaway vehicle by training a KNN regressor (non-parametric model) on the vehicles movements. 
+Localize a runaway vehicle which frequently moves in random movements by training a [KNN regressor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) on the vehicles movements. 
 
 # Python - Machine Learning
 ### Supervised Learning Algorithms

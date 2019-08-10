@@ -108,7 +108,7 @@ Localize a runaway vehicle which frequently moves in random movements by trainin
 
 # Python - Machine Learning
 ### Supervised Learning Algorithms
-Survey and analysis of the following supervised learning algorithms on the [Titanic Survival](https://www.kaggle.com/c/titanic) and [UCI Handwritten digits](https://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits) data sets: Decision Trees, KNN, AdaBoost, Neural Nework (Multi Layer Perceptron), SVM
+Survey and analysis of the following supervised learning algorithms on the [Titanic Survival](https://www.kaggle.com/c/titanic) and [UCI Handwritten digits](https://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits) data sets: Decision Trees, KNN, AdaBoost, Neural Network (Multi Layer Perceptron), and SVM
 
 ### Unsupervised Learning Algorithms
 Compared the performance of both [K-Means](https://en.wikipedia.org/wiki/K-means_clustering) (hard-clustering) and [Expectations Maximization](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) (soft-clustering) before and after applying the following dimensionality reduction techniques: PCA, ICA, Randomized Projections, Random Forests Classifier.

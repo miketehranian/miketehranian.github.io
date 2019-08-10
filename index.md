@@ -49,13 +49,11 @@ Implemented K-Means Clustering and Gaussian Mixture Model with [Bayesian informa
 
 
 ### Hidden Markov Models
-Constructed a Hidden Markov Model and solved it using the [Viterbi Algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm).
-
+Constructed a Hidden Markov Model for a subset of Morse Code alphabet and solved it using the [Viterbi Algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm).
 
 # Python - Computer Networks
 ### SDN Firewall
 Created a configurable Firewall using the [Pyretic](http://frenetic-lang.org/pyretic) [SDN](https://en.wikipedia.org/wiki/Software-defined_networking) framework.
-
 
 ### Mininet - BGP Hijack
 Implemented the BGP Hijack in [Mininet](http://mininet.org) demonstrated in the paper ["Understanding Resiliency of Internet Topology Against Prefix Hijack Attacks"](https://www2.cs.arizona.edu/~bzhang/paper/07-dsn-hijack.pdf).

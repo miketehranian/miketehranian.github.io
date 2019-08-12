@@ -24,7 +24,7 @@ RPC Client and Multi-Threaded Webserver which exposes an RPC (XDR) interface to 
 This project is a simple demonstration of how to configure and analyze the results of the branch predictor used in [SESC Simulator](http://sesc.sourceforge.net).
 
 ### Next to LRU Cache Replacement Policy & L1 Cache Miss Instrumentation
-This project implements the Next to LRU (NXLRU) Cache Replacement Policy. Standard LRU replaces the block that is the first in LRU order (i.e. the least recently used block) in the cache set; NXLRU replaces the block that is the second in LRU order in the set, i.e. the second least-recently-used block in the set.
+This project implements a custom Next to LRU (NXLRU) [Cache Replacement Policy](https://en.wikipedia.org/wiki/Cache_replacement_policies). Standard LRU replaces the block that is the first in LRU order (i.e. the least recently used block) in the cache set; NXLRU replaces the block that is the second in LRU order in the set, i.e. the second least-recently-used block in the set.
 The second part of the project is to instrument the simulator to identify the specific type of L1 Cache Miss: compulsory, conflict, or capacity.
 
 ### Identifying Miss Types Separately for Reads & Writes for the L1 Cache

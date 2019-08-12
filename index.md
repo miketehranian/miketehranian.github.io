@@ -25,10 +25,10 @@ This project is a simple demonstration of how to configure and analyze the resul
 
 ### Next to LRU Cache Replacement Policy & L1 Cache Miss Instrumentation
 This project implements a custom Next to LRU (NXLRU) [Cache Replacement Policy](https://en.wikipedia.org/wiki/Cache_replacement_policies). Standard LRU replaces the block that is the first in LRU order (i.e. the least recently used block) in the cache set; NXLRU replaces the block that is the second in LRU order in the set, i.e. the second least-recently-used block in the set.
-The second part of the project is to instrument the simulator to identify the specific type of L1 Cache Miss: compulsory, conflict, or capacity.
+The second part of the project is to instrument the simulator to identify the specific type of L1 Cache Miss: [compulsory, conflict, or capacity](https://en.wikipedia.org/wiki/Cache_performance_measurement_and_metric).
 
 ### Identifying Miss Types Separately for Reads & Writes for the L1 Cache
-This project instruments and measures the number of: Compulsory, Replacement, and Coherence misses for the L1 Cache. Reads & Writes are measured separately.
+This project instruments and measures the number of: [Compulsory, Replacement, and Coherence misses](https://en.wikipedia.org/wiki/Cache_performance_measurement_and_metric) for the L1 Cache. Reads & Writes are measured separately.
 
 # Python - Artificial Intelligence
 ### Adversarial Search Algorithms

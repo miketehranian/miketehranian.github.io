@@ -43,7 +43,7 @@ Created a Decision Tree and Random Forests Classifier using only NumPy. The Rand
 My classifier was [ranked 7th out of 137 students for a Kaggle Competition](https://www.kaggle.com/c/omscs6601ai-sp18-assign4) for my graduate level AI course.
 
 ### Unsupervised Learning with Generative Models
-Implemented K-Means Clustering and Gaussian Mixture Models with [Bayesian information criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion) to perform Image segmentation using only NumPy.
+Implemented [K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering) and [Gaussian Mixture Models](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) with [Bayesian information criterion (BIC)](https://en.wikipedia.org/wiki/Bayesian_information_criterion) to perform Image segmentation using only NumPy.
 
 ### Hidden Markov Models
 Constructed a Hidden Markov Model for a subset of the Morse Code alphabet and solved it using the [Viterbi Algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm) using only NumPy.
@@ -88,10 +88,8 @@ Used [RANSAC algorithm](https://en.wikipedia.org/wiki/Random_sample_consensus) i
 ### High Dynamic Range (HDR)
 Generates an [HDR image](https://en.wikipedia.org/wiki/High-dynamic-range_imaging) from a collection of images taken at different exposure times. First step is to sample the pixel intensities to determine the camera's [Response Curve](https://wiki.panotools.org/Camera_response_curve), then to build the Response Curve for each color channel, then to build an Image Radiance Map, and finally apply [Tone Mapping](https://en.wikipedia.org/wiki/Tone_mapping) to normalize the HDR values into more limited dynamic range suitable for viewing. 
 
-
 ### Final Project - Seam Carving
 Developed an algorithm for [Seam Carving](https://en.wikipedia.org/wiki/Seam_carving) by finding the path of the minimum energy cost determined by either the [HOG](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients) or the [Gradient Magnitude](https://en.wikipedia.org/wiki/Image_gradient). The algorithm used [Dijkstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) for finding the path of minimum cost.
-
 
 ### Final Portfolio Showcase
 A visual showcase in presentation form for all of the projects I completed for the course.
